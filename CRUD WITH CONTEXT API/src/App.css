@@ -1,0 +1,50 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+.form{
+    text-align: center;
+        height: 300px;
+    width: 300px;
+   background-image: linear-gradient( salmon, white, salmon);
+    border-radius: 15px;
+ margin: 0 auto;
+    top: 50%;
+    left: 50%;
+
+}
+label {
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+ .btn{
+    border: none;
+ }
+ 
+ td, th {
+    border: 1px solid #030101;
+   border-right: 2px solid black;
+    padding: 8px;
+    
+  }
+  th{
+    background-color: rgba(250, 128, 114, 0.625);
+  }
+  
+  
+  table th, td {
+      border: 1px solid #000000;
+      
+      padding: 2px;
+    }
+    table  td {
+      border: 1px solid #000000;
+     
+      padding: 2px;
+    }
+    tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+  
+  
